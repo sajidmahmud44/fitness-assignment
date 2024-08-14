@@ -82,13 +82,12 @@ background: rgb(230, 83, 60);
    
 }
 
-.body{
-
-  margin-top: 85px;
-  font-size: 70px;
-font-weight: 900;
-line-height: 120%;
-color: rgb(255, 255, 255);
+.body {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  line-height: 120%;
+  text-align: left;
+  font-family: "Inter", sans-serif;
 }
 .para{
   width: 490px;
@@ -189,7 +188,9 @@ line-height: 24px;
 }
 
 
-  
+.banr{
+  width: 100%;
+}
 
 .buka1 {
   position: absolute;
@@ -198,17 +199,15 @@ line-height: 24px;
   text-align: left;
 }
 .buka2 {
-  position: relative;
+  position: absolute;
   text-align: left;
-  bottom: 15%;
-  left: -32%;
+  bottom: -5%;
+  left: 51%;
 }
 /* End of Fitness Header Section */
 
 /* Habit Section */
-.change-habit{
-  width: 660px;
-  margin: 0 auto;
+.change-habit {
   text-align: center;
 }
 .habit-head{
@@ -249,6 +248,10 @@ padding-top: 15px;
 .effect{
   padding-top: 12px;
   padding-bottom: 40px;
+}
+.containerr {
+  width: 1100px;
+  margin: 0 auto;
 }
 /* end of habit section */
 /* exercise section */
