@@ -4,15 +4,95 @@
         padding-top: 45px;
         flex-direction: column;
     }
+    .container {
+        width: 576px;
+        margin: 0 auto;
+    }
+    .body {
+        font-size: 4rem;
+        line-height: 130%;
+    }
     .buka1 {
-        top: 129%;
-        left: 38%;
-
+        top: 150%;
+        left: 50%;
     }
     .nav-bar{
         display: none;
     }
-
+    .buka2 {
+        position: absolute;
+        text-align: left;
+        bottom: -164%;
+        left: 21px;
+    }
+    .banr {
+        width: 38%;
+        margin-left: 56px;
+        margin-top: 45px;
+    }
+    .change-habit {
+        text-align: left;
+        padding-left: 24px;
+    }
+    .habit-head {
+        font-size: 42px;
+        font-weight: 900;
+    }
+    .para-2 {
+        font-size: 14px;
+        width: 25rem;
+    }
+    .gym-image {
+        gap: 20px;
+        padding-bottom: 95px;
+        flex-direction: column;
+    }
+    .move {
+        text-align: left;
+        padding-left: 157px;
+    }
+    .image-head {
+        padding-left: 57px;
+    }
+    .exercise {
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 40px;
+        /* justify-content: space-between; */
+        /* padding-right: 0px; */
+        flex-direction: column;
+    }
+    .containerr {
+        width: 568px;
+        margin: 0 auto;
+    }
+    .gapp {
+        padding-top: 45px;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    .image-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+    }
+    .common-class {
+        height: 270px;
+        background-position: top;
+        background-size: cover;
+        position: relative;
+        width: 20rem;
+    }
+    .ending-class {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
+    .rights{
+        text-align: left;
+    }
+    .width-bmi {
+        width: 28rem;
+    }
 
 
 
