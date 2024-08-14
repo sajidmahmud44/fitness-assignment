@@ -1,85 +1,110 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 
 
-.inter-font{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-  /* default */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
-.display-flex{
-    display: flex;
+/* default */
+
+.display-flex {
+  display: flex;
 }
 
 
 /* Fitness Header Section */
 
-.Total{
+.Total {
 
-  
+
   background-color: rgba(17, 17, 17, 1);
-  
-  
+
+
 }
-.container{
+
+.container {
   width: 1030px;
   margin: 0 auto;
 
 }
-.new-font{
+
+.new-font {
   font-family: 'Miama Nueva', sans-serif;
 }
-  .nav-item{
-    list-style: none;
-   
-    
-  }
-  .navlink{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 19px;
-  }
-.fit-1{
-  display: flex;
-    justify-content: space-between;
-    padding-top: 51px;
 
-    
+.fig1 {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+
 }
-.nav-bar{
-    gap: 2rem;
-    justify-content: space-evenly;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 348px;
-    box-sizing: border-box;
-    padding-top: 8px;
-    border-radius: 34px;
-    padding-right: 10px;
-    
-    
-} 
-.fit-title{
+
+.item {
+  list-style: none;
+  margin-right: 40px;
+
+}
+.fa-bars:before,
+.fa-navicon:before {
+    visibility: hidden;
+}
+.home-side{
+  border: 1px solid #414141;
+  padding: 11px 5px;
+  border-radius: 50px;
+}
+
+.link-as {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Inter";
+}
+
+.flex-1{
+  display: flex;
+
+}
+.fit-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 51px;
+
+
+}
+
+
+.fit-title {
   color: rgb(230, 83, 60);
   font-size: 30px;
   font-weight: 800;
   line-height: 120%;
-} 
-.home{
+}
+.home-btn {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #ffffff;
+  background: #e6533c;
+  padding: 7px 25px;
+  border-radius: 35px;
+}
+
+.home {
   border-radius: 39px;
-padding: 7px 18px;
-background: rgb(230, 83, 60);
-   
+  padding: 7px 18px;
+  background: rgb(230, 83, 60);
+
 }
 
 .body {
@@ -89,95 +114,106 @@ background: rgb(230, 83, 60);
   text-align: left;
   font-family: "Inter", sans-serif;
 }
-.para{
+
+.para {
   width: 490px;
   margin-top: 26px;
   margin-bottom: 26px;
   font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.5px;
-color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.5);
 }
-.btn-primary{
+
+.btn-primary {
   font-size: 16px;
-font-weight: 600;
-line-height: 20px;
+  font-weight: 600;
+  line-height: 20px;
   border-radius: 36px;
   color: rgb(255, 255, 255);
-background: rgb(230, 83, 60);
-padding: 14px 35px;
-border: none;
+  background: rgb(230, 83, 60);
+  padding: 14px 35px;
+  border: none;
 }
-.btn-2{
+
+.btn-2 {
   background-color: black;
   color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 600;
-line-height: 19px;
-border: 1px solid rgb(255, 255, 255);
-border-radius: 39px;
-padding: 14px 35px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 39px;
+  padding: 14px 35px;
 
 }
+
 /* .image-1{
  
   margin-left: 80px;
   margin-top: 28px;
   
 } */
-.five-hundred{
+.five-hundred {
   color: rgb(255, 255, 255);
 
-font-size: 35px;
-font-weight: 900;
-line-height: 40px;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 40px;
 }
-.free{
+
+.free {
   color: rgba(255, 255, 255, 0.65);
-font-size: 11px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
-.Top-1{
+
+.Top-1 {
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 170px;
   box-sizing: border-box;
   border-radius: 10px;
   padding: 15px 18px 18px 18px;
   background: rgba(255, 255, 255, 0.1);
-  
-  
+
+
 }
-.top-2{
+
+.top-2 {
   backdrop-filter: blur(16px);
 
 
 }
-.circle{
+
+.circle {
   height: 35px;
   width: 35px;
   background: rgb(230, 83, 60);
   border-radius: 50%;
   margin-right: 8px;
 }
-.three-fifty{
+
+.three-fifty {
   color: black;
-font-size: 22px;
-font-weight: 900;
-line-height: 24px;
-margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 5px;
 }
-.video-1{
+
+.video-1 {
   color: black;
 
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 
 }
-.bottom-1{
+
+.bottom-1 {
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 180px;
   box-sizing: border-box;
@@ -188,220 +224,266 @@ line-height: 24px;
 }
 
 
-.banr{
+.banr {
   width: 100%;
+  padding-left: 200px;
 }
 
 .buka1 {
   position: absolute;
-  top: 50%;
-  left: 80%;
+  top: 26%;
+  left: 70%;
   text-align: left;
 }
+
 .buka2 {
   position: absolute;
   text-align: left;
   bottom: -5%;
   left: 51%;
 }
+
 /* End of Fitness Header Section */
 
 /* Habit Section */
 .change-habit {
   text-align: center;
 }
-.habit-head{
+
+.habit-head {
   color: rgb(255, 255, 255);
 
-font-size: 42px;
-font-weight: 900;
-line-height: 120%;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 120%;
 }
-.para-2{
+
+.para-2 {
   color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
-.image-head{
+.para-3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.image-head {
   color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 16px;
-font-weight: 600;
-line-height: 120%;
-padding-top: 15px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-top: 15px;
 }
-.gym-image{
+
+.gym-image {
   justify-content: space-evenly;
   gap: 20px;
   padding-bottom: 95px;
 }
-.move{
+
+.move {
   text-align: center;
-  
+
 }
-.round{
+
+.round {
   border-radius: 50%;
 }
-.effect{
+
+.effect {
   padding-top: 12px;
   padding-bottom: 40px;
 }
+
 .containerr {
   width: 1100px;
   margin: 0 auto;
 }
+
 /* end of habit section */
 /* exercise section */
-.exercise{
+.exercise {
   border-radius: 18px;
 
-background: rgb(34, 34, 34);
+  background: rgb(34, 34, 34);
 
   padding: 30px;
   justify-content: space-between;
   padding-right: 47px;
 
 }
-.picture-run{
+
+.picture-run {
   width: 345px;
 }
-.paragraph{
-  
-    width: 374px;
-    padding-top: 12px;
-    padding-bottom: 36px;
+
+.paragraph {
+
+  width: 374px;
+  padding-top: 12px;
+  padding-bottom: 36px;
 }
-.text-area{
+
+.text-area {
   width: 440px;
 }
+
 /* end of exercise section */
 /* bmi section */
-.width-bmi{
+.width-bmi {
   width: 665px;
   margin: 0 auto;
   padding-top: 78px;
   padding-bottom: 80px;
 }
-.high{
+
+.high {
   padding-top: 12px;
 }
 
-table tr th{
+table tr th {
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
   font-size: 14px;
-font-weight: 500;
-line-height: 120%;
-padding: 10px 15px 8px 20px;
+  font-weight: 500;
+  line-height: 120%;
+  padding: 10px 15px 8px 20px;
 
 }
-table tr td{
+
+table tr td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.5);
-font-size: 12px;
-font-weight: 400;
-padding: 10px 15px 8px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 15px 8px 20px;
 
 
 }
-table{
+
+table {
   border-collapse: collapse;
   padding: 8px;
-  
+
 }
-.bmii{
+
+.bmii {
   text-align: left;
 }
-.total-2{
+
+.total-2 {
   background: rgb(34, 34, 34);
 }
-.Calculator-1 h3{
+
+.Calculator-1 h3 {
   color: rgb(255, 255, 255);
-font-size: 25px;
-font-weight: 900;
-line-height: 120%;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 120%;
 }
-.calc-head{
+
+.calc-head {
   color: rgb(255, 255, 255);
-font-size: 25px;
-font-weight: 900;
-line-height: 120%;
-padding-bottom: 12px;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 120%;
+  padding-bottom: 12px;
 }
-.gapp{
+
+.gapp {
   justify-content: space-between;
   padding-top: 45px;
 
 }
-.input-first input{
+
+.input-first input {
   border-radius: 8px;
 
-background: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.5);
-border: none;
-padding: 13px 28px;
-margin-top: 12px;
-width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding: 13px 28px;
+  margin-top: 12px;
+  width: 250px;
 }
-::placeholder{
+
+::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-.gender{
+
+.gender {
   border-radius: 8px;
 
-background: rgba(255, 255, 255, 0.1);
-border: none;
-width: 250px;
-padding: 13px 28px;
-margin-top: 12px;
-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 250px;
+  padding: 13px 28px;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.5);
 }
-.factorr{
+
+.factorr {
   border-radius: 8px;
 
-background: rgba(255, 255, 255, 0.1);
-border: none;
-width: 506px;
-padding: 13px 28px;
-margin-top: 12px;
-color: rgba(255, 255, 255, 0.5);
-margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 506px;
+  padding: 13px 28px;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
 }
-.btn-calc{
+
+.btn-calc {
   margin-bottom: 25px;
   font-size: 14px;
 }
-.head-chart{
- padding-bottom: 40px;
+
+.head-chart {
+  padding-bottom: 40px;
 }
-.calc-para{
+
+.calc-para {
   width: 506px;
   padding-bottom: 30px;
 }
+
 /* end of bmi section */
 /* team section */
-.picture-1{
+.picture-1 {
   background-image: url(../images/trainer1.png);
 }
-.picture-2{
+
+.picture-2 {
   background-image: url(../images/trainer2.png);
 }
-.picture-3{
+
+.picture-3 {
   background-image: url(../images/trainer3.png);
 }
-.picture-4{
+
+.picture-4 {
   background-image: url(../images/trainer4.png);
 }
-.picture-5{
+
+.picture-5 {
   background-image: url(../images/trainer5.png);
 }
-.picture-6{
+
+.picture-6 {
   background-image: url(../images/trainer6.png);
 }
-.common-class{
+
+.common-class {
   border-radius: 18px;
   height: 270px;
   background-repeat: no-repeat;
@@ -409,88 +491,100 @@ margin-bottom: 20px;
   background-size: cover;
   position: relative;
 }
-.image-container{
+
+.image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   border-radius: 18px;
 
-background: rgba(255, 255, 255, 0.1);
-padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
 }
-.common-class h6{
-color: white;
-font-size: 18px;
-position: absolute;
-    top: 13.5rem;
-    left: 1.5rem;
+
+.common-class h6 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 13.5rem;
+  left: 1.5rem;
 }
-.common-class p{
+
+.common-class p {
   color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
-position: absolute;
-    top: 15rem;
-    left: 1.5rem;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 15rem;
+  left: 1.5rem;
 }
-.meet-team{
+
+.meet-team {
   margin-bottom: 12px;
 }
-.describe{
+
+.describe {
   margin-bottom: 55px;
 }
-.cambridge{
+
+.cambridge {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 /* end of team section */
 /* website end section */
-.ending-class{
+.ending-class {
   justify-content: space-evenly;
   padding-top: 40px;
   padding-bottom: 60px;
 }
-.fitness-1{
+
+.fitness-1 {
   color: rgb(230, 83, 60);
-font-size: 65px;
-font-weight: 800;
+  font-size: 65px;
+  font-weight: 800;
 
 }
-.website-end{
+
+.website-end {
   background-color: #000000e3;
 
 }
-.horizontal{
+
+.horizontal {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.rights{
+
+.rights {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 
-font-size: 18px;
-font-weight: 400;
-padding-top: 30px;
-padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
-.get-1{
+
+.get-1 {
   color: rgb(255, 255, 255);
 
-font-size: 28px;
-font-weight: 700;
-margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
 
 
 }
-.list-end{
+
+.list-end {
   color: rgba(255, 255, 255, 0.5);
-
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 15px;
-
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  list-style: none;
 }
-.income-2{
+
+.income-2 {
   width: 440px;
 }
-
