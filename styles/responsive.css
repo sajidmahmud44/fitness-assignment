@@ -3,6 +3,7 @@
     .response-1,.shape{
         padding-top: 45px;
         flex-direction: column;
+        padding-left: 15px;
     }
     .container {
         width: 576px;
@@ -12,9 +13,16 @@
         font-size: 4rem;
         line-height: 130%;
     }
+    .fit-1{
+        padding-left: 10px;
+    }
+    .effect{
+        width: 80%;
+        text-align: center;
+    }
     .buka1 {
-        top: 150%;
-        left: 50%;
+        top: 253%;
+        left: 38%;
     }
     .nav-bar{
         display: none;
@@ -22,8 +30,8 @@
     .buka2 {
         position: absolute;
         text-align: left;
-        bottom: -164%;
-        left: 21px;
+        bottom: -232%;
+        left: 13px;
     }
     .banr {
         width: 38%;
@@ -37,6 +45,7 @@
     .habit-head {
         font-size: 42px;
         font-weight: 900;
+        text-align: center;
     }
     .para-2 {
         font-size: 14px;
@@ -49,7 +58,7 @@
     }
     .move {
         text-align: left;
-        padding-left: 157px;
+        padding-left: 120px;
     }
     .image-head {
         padding-left: 57px;
@@ -61,6 +70,9 @@
         /* justify-content: space-between; */
         /* padding-right: 0px; */
         flex-direction: column;
+    }
+    .medium{
+        width: 235px;
     }
     .containerr {
         width: 568px;
@@ -74,6 +86,7 @@
     .image-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 18px;
+        padding-left: 50px;
     }
     .common-class {
         height: 270px;
@@ -86,9 +99,11 @@
         padding-top: 40px;
         padding-bottom: 60px;
         flex-direction: column;
+        padding-left: 28px;
     }
     .rights{
         text-align: left;
+        padding-left: 28px;
     }
     .width-bmi {
         width: 28rem;
