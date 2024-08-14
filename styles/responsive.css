@@ -13,6 +13,22 @@
         font-size: 4rem;
         line-height: 130%;
     }
+    .fa-bars:before, .fa-navicon:before {
+        visibility: visible;
+        color: #ebe3e3;
+        font-size: 1.2rem;
+        position: absolute;
+        top: 57px;
+        right: 25px;
+    }
+    .hide{
+        display: none;
+      }
+    .fa-solid,
+    .fas {
+        font-weight: 900;
+        padding-left: 27px;
+    }
     .fit-1{
         padding-left: 10px;
     }
@@ -21,8 +37,8 @@
         text-align: center;
     }
     .buka1 {
-        top: 253%;
-        left: 38%;
+        top: 126%;
+        left: 56%;
     }
     .nav-bar{
         display: none;
@@ -30,12 +46,12 @@
     .buka2 {
         position: absolute;
         text-align: left;
-        bottom: -232%;
+        bottom: -432px;
         left: 13px;
     }
     .banr {
-        width: 38%;
-        margin-left: 56px;
+        width: 75%;
+        margin-left: -84px;
         margin-top: 45px;
     }
     .change-habit {
@@ -43,13 +59,26 @@
         padding-left: 24px;
     }
     .habit-head {
-        font-size: 42px;
+        font-size: 37px;
         font-weight: 900;
-        text-align: center;
+        text-align: left;
+    }
+    .para-3 {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+      }
+    .fig1 {
+        align-items: center;
+        padding-top: 0px;
     }
     .para-2 {
         font-size: 14px;
-        width: 25rem;
+        width: 27rem;
+        text-align: center;
     }
     .gym-image {
         gap: 20px;
@@ -58,7 +87,7 @@
     }
     .move {
         text-align: left;
-        padding-left: 120px;
+        padding-left: 180px;
     }
     .image-head {
         padding-left: 57px;
@@ -94,6 +123,7 @@
         background-size: cover;
         position: relative;
         width: 20rem;
+        margin-left: 70px;
     }
     .ending-class {
         padding-top: 40px;
