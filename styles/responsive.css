@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+
+    .response-1,.shape{
+        padding-top: 45px;
+        flex-direction: column;
+    }
+    .buka1 {
+        top: 129%;
+        left: 38%;
+
+    }
+    .nav-bar{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}

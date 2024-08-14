@@ -51,6 +51,7 @@
     line-height: 19px;
   }
 .fit-1{
+  display: flex;
     justify-content: space-between;
     padding-top: 51px;
 
@@ -212,7 +213,7 @@ line-height: 24px;
 }
 .habit-head{
   color: rgb(255, 255, 255);
-font-family: Inter;
+
 font-size: 42px;
 font-weight: 900;
 line-height: 120%;
@@ -231,10 +232,12 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 600;
 line-height: 120%;
+padding-top: 15px;
 }
 .gym-image{
   justify-content: space-evenly;
   gap: 20px;
+  padding-bottom: 95px;
 }
 .move{
   text-align: center;
@@ -247,3 +250,244 @@ line-height: 120%;
   padding-top: 12px;
   padding-bottom: 40px;
 }
+/* end of habit section */
+/* exercise section */
+.exercise{
+  border-radius: 18px;
+
+background: rgb(34, 34, 34);
+
+  padding: 30px;
+  justify-content: space-between;
+  padding-right: 47px;
+
+}
+.picture-run{
+  width: 345px;
+}
+.paragraph{
+  
+    width: 374px;
+    padding-top: 12px;
+    padding-bottom: 36px;
+}
+.text-area{
+  width: 440px;
+}
+/* end of exercise section */
+/* bmi section */
+.width-bmi{
+  width: 665px;
+  margin: 0 auto;
+  padding-top: 78px;
+  padding-bottom: 80px;
+}
+.high{
+  padding-top: 12px;
+}
+
+table tr th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 14px;
+font-weight: 500;
+line-height: 120%;
+padding: 10px 15px 8px 20px;
+
+}
+table tr td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+font-size: 12px;
+font-weight: 400;
+padding: 10px 15px 8px 20px;
+
+
+}
+table{
+  border-collapse: collapse;
+  padding: 8px;
+  
+}
+.bmii{
+  text-align: left;
+}
+.total-2{
+  background: rgb(34, 34, 34);
+}
+.Calculator-1 h3{
+  color: rgb(255, 255, 255);
+font-size: 25px;
+font-weight: 900;
+line-height: 120%;
+}
+.calc-head{
+  color: rgb(255, 255, 255);
+font-size: 25px;
+font-weight: 900;
+line-height: 120%;
+padding-bottom: 12px;
+}
+.gapp{
+  justify-content: space-between;
+  padding-top: 45px;
+
+}
+.input-first input{
+  border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.5);
+border: none;
+padding: 13px 28px;
+margin-top: 12px;
+width: 250px;
+}
+::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}
+.gender{
+  border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+border: none;
+width: 250px;
+padding: 13px 28px;
+margin-top: 12px;
+color: rgba(255, 255, 255, 0.5);
+}
+.factorr{
+  border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+border: none;
+width: 506px;
+padding: 13px 28px;
+margin-top: 12px;
+color: rgba(255, 255, 255, 0.5);
+margin-bottom: 20px;
+}
+.btn-calc{
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+.head-chart{
+ padding-bottom: 40px;
+}
+.calc-para{
+  width: 506px;
+  padding-bottom: 30px;
+}
+/* end of bmi section */
+/* team section */
+.picture-1{
+  background-image: url(../images/trainer1.png);
+}
+.picture-2{
+  background-image: url(../images/trainer2.png);
+}
+.picture-3{
+  background-image: url(../images/trainer3.png);
+}
+.picture-4{
+  background-image: url(../images/trainer4.png);
+}
+.picture-5{
+  background-image: url(../images/trainer5.png);
+}
+.picture-6{
+  background-image: url(../images/trainer6.png);
+}
+.common-class{
+  border-radius: 18px;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.image-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  border-radius: 18px;
+
+background: rgba(255, 255, 255, 0.1);
+padding: 20px;
+}
+.common-class h6{
+color: white;
+font-size: 18px;
+position: absolute;
+    top: 13.5rem;
+    left: 1.5rem;
+}
+.common-class p{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+position: absolute;
+    top: 15rem;
+    left: 1.5rem;
+}
+.meet-team{
+  margin-bottom: 12px;
+}
+.describe{
+  margin-bottom: 55px;
+}
+.cambridge{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* end of team section */
+/* website end section */
+.ending-class{
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.fitness-1{
+  color: rgb(230, 83, 60);
+font-size: 65px;
+font-weight: 800;
+
+}
+.website-end{
+  background-color: #000000e3;
+
+}
+.horizontal{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.rights{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+
+font-size: 18px;
+font-weight: 400;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+.get-1{
+  color: rgb(255, 255, 255);
+
+font-size: 28px;
+font-weight: 700;
+margin-bottom: 10px;
+
+
+}
+.list-end{
+  color: rgba(255, 255, 255, 0.5);
+
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 15px;
+
+}
+.income-2{
+  width: 440px;
+}
+
