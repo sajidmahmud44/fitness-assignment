@@ -1,9 +1,13 @@
+
 @media screen and (max-width: 576px) {
 
     .response-1,.shape{
         padding-top: 45px;
         flex-direction: column;
         padding-left: 15px;
+    }
+    .description{
+        padding-top: 45px;
     }
     .container {
         width: 576px;
@@ -12,6 +16,20 @@
     .body {
         font-size: 4rem;
         line-height: 130%;
+    }
+    .Calculator-1 h3{
+        padding-left: 14px;
+    }
+    .table-1{
+        padding-left: 14px;
+    }
+    .calc-head{
+        padding-top: 20px;
+        padding-left: 14px;
+    }
+    
+    .speed{
+        width: 240px;
     }
     .fa-bars:before, .fa-navicon:before {
         visibility: visible;
@@ -37,8 +55,8 @@
         text-align: center;
     }
     .buka1 {
-        top: 126%;
-        left: 56%;
+        top: 320%;
+        left: 55%;
     }
     .nav-bar{
         display: none;
@@ -46,8 +64,8 @@
     .buka2 {
         position: absolute;
         text-align: left;
-        bottom: -432px;
-        left: 13px;
+        bottom: -670px;
+        left: 40px;
     }
     .banr {
         width: 75%;
@@ -56,12 +74,13 @@
     }
     .change-habit {
         text-align: left;
-        padding-left: 24px;
+        padding-left: 60px;
     }
     .habit-head {
         font-size: 37px;
         font-weight: 900;
         text-align: left;
+        padding-left: 15px;
     }
     .para-3 {
         color: rgba(255, 255, 255, 0.5);
@@ -71,6 +90,7 @@
         line-height: 24px;
         letter-spacing: 0.3px;
       }
+      
     .fig1 {
         align-items: center;
         padding-top: 0px;
@@ -79,6 +99,10 @@
         font-size: 14px;
         width: 27rem;
         text-align: center;
+    }
+    .calc-para{
+        text-align: left;
+        padding-left: 14px;
     }
     .gym-image {
         gap: 20px;
@@ -102,10 +126,30 @@
     }
     .medium{
         width: 235px;
+        text-align: left;
     }
     .containerr {
         width: 568px;
         margin: 0 auto;
+    }
+    .paragraph{
+        padding-left: 10px;
+        text-align: left;
+    }
+    .response-6{
+        padding-left: 0px;
+    }
+    .high{
+        text-align: left;
+    }
+    .join-2{
+        width: 270px;
+    height: 52px;
+    margin-bottom: 20px;
+    }
+
+    .extra-3{
+padding-left: 10px;
     }
     .gapp {
         padding-top: 45px;
@@ -139,10 +183,19 @@
         width: 28rem;
     }
 
-
-
-
-
-
-
+    .meet-team{
+text-align: center;
+padding-right: 88px;
+    }
+    .describe{
+        padding-left: 15px;
+    }
+.income-2{
+    text-align: left;
+    padding-bottom: 15px;
+}
+.uniw{
+    flex-direction: column;
+    padding-left: 70px;
+}
 }
